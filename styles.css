@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.html{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+.home-page{
+  background-image: url(images/Dark\ Modern\ Photo\ Mountain\ And\ Sky\ Desktop\ Wallpaper_20240527_122953_0000.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  text-align: center;
+/*     display: inline-flex;*/
+  margin: 0%;
+  padding: 1%;
+  max-width: 100%;
+}
+.menu{
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  cursor: pointer;
+  background-color: black;
+  color: #FC0;
+  border: #FC0 1px solid;
+  border-radius: 5px;
+}
+.menu ul{
+  margin: 0%;
+  padding: 0%;
+  display: inline-flex;
+  width: 100%;
+  text-align: center;
+  height: 2.5rem;
+}
+.menu ul li{
+  text-decoration: none;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.5rem;
+  margin: 0%;
+  padding-bottom: 0.5rem;
+  font-family: "montserrat";
+  background-color: black;
+  color: #FC0;
+}
+.menu ul :visited{
+  text-decoration: none;
+  background-color: black;
+  color: #FC0;
+}
+.menu ul :hover{
+  background-color: #FC0;
+  color: black;
+}
+.menu ul li:hover{
+  background-color: #FC0;
+  color: black;
+} 
+#img{
+    max-width: 16vw;
+    max-height: 10vw;
+    float: left;
+
+ }
+ .home-page h1{
+    font-family: "lato";
+    font-size: 5vw;
+    font-weight: 900;
+    color: #fc0;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    text-decoration: underline;
+ }
+ .home-page h3{
+    font-family: "Montserrat";
+    font-size: 3vw;
+    padding-top: 0%;
+    margin-top: 0%;
+    color: #ffffff;
+    text-justify: left;
+    outline: #fdfdfd 2px ;
+ }
+ .display{
+  align-content: center ;
+    padding-top: 2%;
+    background-color: black;
+    box-shadow: 0 8px 8px hwb(0 95% 4% / 0.1);
+    width: 100%;
+    border: black 0.5px solid;
+ }
+ .display img {
+    display: inline-table;
+    max-width: 25vw;
+    height: 20vw;
+    padding: 0.2%;
+ }
+ .slogan{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+ }
+ .slogan q{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: "montserrat";
+  font-size: 3vw;
+  font-style: italic;
+  color: #FC0;
+  margin: 0%;  
+ }
+#hr{
+  margin: 0%;
+ }
+#about{
+  background-color: black;
+  color: #FC0;
+  max-width: 100%;
+  margin: 0%;
+  padding-bottom: 1rem;
+ }
+#about h1{
+  margin: 0%;
+  padding: .9rem;
+  text-decoration: underline;
+ }
+#about p{
+  font-family: "montserrat";
+  padding: .5rem;
+  margin: 0%;
+ }
+.btn{
+   background-color: #FC0;
+   padding: 0.5rem ;
+   margin: 0.5rem;
+   border-radius: 10px;
+   text-decoration: none;
+   color: black;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 600;
+   font-size: 1rem;
+ }
+ .catalogue{
+  margin-top: 1rem;
+ }
+#catalogue h1{
+    background-color: #FC0;
+    margin: 0%;
+    font-size: 6vw;
+    font-family: "Lilita One";
+    padding: 1%;
+    text-align: center;
+ }
+ .cat{
+   padding-left: 1%;
+    padding-top: 2%;
+    background-color: #FC0;
+    box-shadow: 0 8px 8px hwb(0 95% 4% / 0.1);
+    max-width: 100%;
+    border: black 0.5px solid;
+/*     padding: 0%;
+ */ }
+ .cat img{
+    display: inline-table;
+    max-width: 23vw;
+    height: 20vw;
+    padding-right: 0.1%;
+    padding-left: 0.1%;
+ }
+ #h2{
+   font-family: "Lilita One";
+   color: white;
+   background-color: black;
+   margin: 0%;
+   padding: 1%;
+}
+ .cat h2{
+   font-family: "Lilita One";
+   background-color: #FC0;
+   margin: 0%;
+   color: black;
+   margin-bottom: 0%;
+   width: 100%;
+   overflow: hidden;
+ }
+ 
+ .whatsapp{
+   color: white;
+    background-color: rgb(6, 161, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    white-space: nowrap;
+    line-height: 100%;
+    padding: 12px 20px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16);
+ }
+ .contacts{
+   width: 100%;
+   background-color: black;
+   color: white;
+   margin: 0%;
+   padding-bottom: 0%;
+   display: inline-flex;
+   border-radius: 5px;
+   margin-top: 1%;
+ }
+  .contact-left{
+   width: 50%;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   margin-bottom: 1rem;
+ }
+ .contact-left h1{
+   padding-left: 2%;
+   font-family: "Merriweather Sans";
+   font-size: 2rem;
+   text-decoration: underline ;
+ }
+ .contact-left p span{
+   font-size: 20px;
+   font-weight: bold;
+   color: aqua;
+ }
+ .contact-left p i{
+   color: #fff;
+   margin-right: 20px;
+   font-size: 25px;
+ }
+.contact-right h1{
+  font-family: "montserrat";
+  width: 100%;
+  font-size: 1.5rem;
+}
+ .contact-left a{
+   width: 2rem;
+ }
+ .contact-left p{
+   padding: 0; 
+   color: white;
+   font-family: "montserrat";
+}
+#linkedin :visited {
+   color: white;
+}
+.contact-right{
+  max-width: 50%;
+  overflow: auto;
+  scrollbar-width: none;
+}
+input{
+  padding: 1%;
+  margin: 1%;
+  background-color: #FC0;
+  font-family: "montserrat";
+  color: black;
+  border-radius: 6px;
+}
+textarea{
+  background-color: #FC0;
+  border-radius: 2px;
+  padding: 1%;
+  margin: 1%;
+}
+#but{
+  margin: 1%;
+  padding: 1%;
+  width: 4rem;
+  border-radius: 5px;
+  background-color: #fc0;
+  height: 2rem;
+  font-family: "montserrat";
+  font-weight: bold;
+}
+/*  .contact-center{
+   flex-basis: 100%;
+ }
+.btn :hover {
+   background-color: aqua;
+ }
+ .btn :visited{
+   color: black;
+ }
+.btn.btn2{
+   display: inline-block;
+   background: #FC0;
+   color: black;
+ }
+ .contact-center form{
+   max-width: 100%;
+ }
+ form input, form textarea{
+   max-width: 100%;
+   border: 0;
+   outline: none;
+   background: goldenrod;
+   padding: 15px;
+   margin: 15px 0px;
+   color: white;
+   font-size: 18px;
+   border-radius: 15px;
+ }
+ form .btn2{
+   padding: 5px 40px;
+   font-size: 18px;
+   margin-top: 10px;
+   cursor: pointer;
+   color: white;
+ } */
+.social{
+
+ }
