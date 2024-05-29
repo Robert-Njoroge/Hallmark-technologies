@@ -14,7 +14,7 @@
     background-color: black;
 }
 .home-page{
-  background-image: url(images/Colorful Simple Graphic Designer LinkedIn Banner_20240529_104429_0000.png);
+  background-image: url("images/Colorful Simple Graphic Designer LinkedIn Banner_20240529_104429_0000.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
